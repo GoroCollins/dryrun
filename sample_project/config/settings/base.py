@@ -87,6 +87,7 @@ THIRD_PARTY_APPS = [
 LOCAL_APPS = [
     "sample_project.users",
     # Your stuff: custom apps go here
+    "sample_project.currencies",
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
